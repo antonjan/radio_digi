@@ -1,0 +1,432 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Audio_transformer
+LIBS:Radio_Digi-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Radio Digi"
+Date "2018-08-15"
+Rev "V1"
+Comp "Giga Technology"
+Comment1 "Author: Anton Janovsky"
+Comment2 "Radio Isolation"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L POT_TRIM RV1
+U 1 1 5B72DAE9
+P 4650 1700
+F 0 "RV1" V 4475 1700 50  0000 C CNN
+F 1 "1k5" V 4650 1700 50  0000 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical" H 4650 1700 50  0001 C CNN
+F 3 "" H 4650 1700 50  0001 C CNN
+	1    4650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT_TRIM RV2
+U 1 1 5B72DB78
+P 4850 2600
+F 0 "RV2" V 4675 2600 50  0000 C CNN
+F 1 "2k" V 4850 2600 50  0000 C CNN
+F 2 "Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical" H 4850 2600 50  0001 C CNN
+F 3 "" H 4850 2600 50  0001 C CNN
+	1    4850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5B72DCFE
+P 3300 750
+F 0 "R2" V 3380 750 50  0000 C CNN
+F 1 "430" V 3300 750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3230 750 50  0001 C CNN
+F 3 "" H 3300 750 50  0001 C CNN
+	1    3300 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5B72DE3B
+P 4450 1500
+F 0 "R3" V 4350 1500 50  0000 C CNN
+F 1 "470" V 4450 1500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4380 1500 50  0001 C CNN
+F 3 "" H 4450 1500 50  0001 C CNN
+	1    4450 1500
+	0    1    1    0   
+$EndComp
+Text Notes 5700 1850 0    60   ~ 0
+Mic To radio
+Text Notes 5700 2850 0    60   ~ 0
+EXS SP from Radio
+Text Notes 1300 1750 0    60   ~ 0
+EXS SP from Laptop \n(audio out)
+Text Notes 1250 2800 0    60   ~ 0
+MIC/Line input to Laptop\n(audio in)
+Wire Wire Line
+	2100 1200 2250 1200
+$Comp
+L Conn_01x03 J4
+U 1 1 5B72E0D5
+P 2550 1350
+F 0 "J4" H 2550 1550 50  0000 C CNN
+F 1 "Conn_01x03" V 2650 1350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2550 1350 50  0001 C CNN
+F 3 "" H 2550 1350 50  0001 C CNN
+	1    2550 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 1900 2550 1550
+Wire Wire Line
+	2650 1550 2950 1550
+Wire Wire Line
+	2950 1550 2950 1500
+Wire Wire Line
+	2450 1550 2450 1700
+Wire Wire Line
+	2450 1700 2950 1700
+Wire Wire Line
+	2100 1900 2550 1900
+Wire Wire Line
+	4600 1500 4650 1500
+Wire Wire Line
+	4650 1500 4650 1550
+Wire Wire Line
+	3750 1900 5350 1900
+Wire Wire Line
+	4650 1900 4650 1850
+Wire Wire Line
+	5350 1700 5350 1800
+Connection ~ 4650 1900
+$Comp
+L Conn_01x03 J7
+U 1 1 5B72E34A
+P 4150 2150
+F 0 "J7" V 4150 2350 50  0000 C CNN
+F 1 "Conn_01x03" V 4250 2100 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4150 2150 50  0001 C CNN
+F 3 "" H 4150 2150 50  0001 C CNN
+	1    4150 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 2900 5350 2900
+Wire Wire Line
+	4150 2350 4150 2450
+Wire Wire Line
+	4150 2450 4850 2450
+Wire Wire Line
+	4050 2350 4050 2500
+Wire Wire Line
+	4050 2500 3750 2500
+Wire Wire Line
+	4250 2350 4250 2700
+Wire Wire Line
+	4250 2700 3750 2700
+Wire Wire Line
+	2900 3050 2900 2900
+Wire Wire Line
+	2900 2900 2950 2900
+$Comp
+L 4N25 U1
+U 1 1 5B72E758
+P 4000 1000
+F 0 "U1" H 3800 1200 50  0000 L CNN
+F 1 "4N25" H 4000 1200 50  0000 L CNN
+F 2 "Housings_DIP:DIP-6_W7.62mm_SMD" H 3800 800 50  0001 L CIN
+F 3 "" H 4000 1000 50  0001 L CNN
+	1    4000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Small D1
+U 1 1 5B72E9DA
+P 2800 750
+F 0 "D1" H 2750 830 50  0000 L CNN
+F 1 "1N4148" H 2650 670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 2800 750 50  0001 C CNN
+F 3 "" V 2800 750 50  0001 C CNN
+	1    2800 750 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 750  3150 750 
+Wire Wire Line
+	3450 750  3700 750 
+Wire Wire Line
+	3700 750  3700 900 
+Wire Wire Line
+	4300 1150 5350 1150
+Wire Wire Line
+	4850 1000 4300 1000
+$Comp
+L Conn_01x02 J2
+U 1 1 5B72ED47
+P 1900 1200
+F 0 "J2" H 1900 1300 50  0000 C CNN
+F 1 "Conn_01x02" H 1900 1000 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB132_02x5mm_Straight" H 1900 1200 50  0001 C CNN
+F 3 "" H 1900 1200 50  0001 C CNN
+	1    1900 1200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 750  2250 750 
+Wire Wire Line
+	2250 750  2250 1200
+Wire Wire Line
+	4850 2750 4850 2900
+Connection ~ 4850 2900
+$Comp
+L D_ALT D2
+U 1 1 5B73D23A
+P 5150 1000
+F 0 "D2" H 5150 1100 50  0000 C CNN
+F 1 "1N4001" H 5150 900 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123F" H 5150 1000 50  0001 C CNN
+F 3 "" H 5150 1000 50  0001 C CNN
+	1    5150 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C1
+U 1 1 5B73D78C
+P 5050 1700
+F 0 "C1" H 5060 1770 50  0000 L CNN
+F 1 "100nF" V 4900 1650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5050 1700 50  0001 C CNN
+F 3 "" H 5050 1700 50  0001 C CNN
+	1    5050 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C2
+U 1 1 5B73D7E7
+P 5150 2600
+F 0 "C2" H 5160 2670 50  0000 L CNN
+F 1 "100nF" V 5000 2500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5150 2600 50  0001 C CNN
+F 3 "" H 5150 2600 50  0001 C CNN
+	1    5150 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 2600 5050 2600
+Wire Wire Line
+	5250 2600 5300 2600
+Wire Wire Line
+	5300 2600 5300 2800
+Wire Wire Line
+	5300 2800 5350 2800
+$Comp
+L Conn_01x02 J5
+U 1 1 5B73DBC4
+P 5550 1800
+F 0 "J5" H 5550 1900 50  0000 C CNN
+F 1 "Conn_01x02" H 5550 1600 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB132_02x5mm_Straight" H 5550 1800 50  0001 C CNN
+F 3 "" H 5550 1800 50  0001 C CNN
+	1    5550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J9
+U 1 1 5B73DC2A
+P 5550 2800
+F 0 "J9" H 5550 2900 50  0000 C CNN
+F 1 "Conn_01x02" H 5550 2600 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB132_02x5mm_Straight" H 5550 2800 50  0001 C CNN
+F 3 "" H 5550 2800 50  0001 C CNN
+	1    5550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1000 4850 850 
+Wire Wire Line
+	4800 1700 4950 1700
+Wire Wire Line
+	5150 1700 5350 1700
+$Comp
+L Conn_01x02 J6
+U 1 1 5B73DE77
+P 1900 1900
+F 0 "J6" H 1900 2000 50  0000 C CNN
+F 1 "Conn_01x02" H 1900 1700 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB132_02x5mm_Straight" H 1900 1900 50  0001 C CNN
+F 3 "" H 1900 1900 50  0001 C CNN
+	1    1900 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J10
+U 1 1 5B73DF0B
+P 1950 2950
+F 0 "J10" H 1950 3050 50  0000 C CNN
+F 1 "Conn_01x02" H 1950 2750 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB132_02x5mm_Straight" H 1950 2950 50  0001 C CNN
+F 3 "" H 1950 2950 50  0001 C CNN
+	1    1950 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2000 2950 2000
+Wire Wire Line
+	2950 2000 2950 1900
+Wire Wire Line
+	2150 3050 2900 3050
+Wire Wire Line
+	2150 2950 2750 2950
+$Comp
+L Transformer_Audio_CTP_CTS T1
+U 1 1 5B741A32
+P 3350 1700
+F 0 "T1" H 3350 1950 50  0000 C CNN
+F 1 "SM-LP-5001 Bourns 600:600 Ohm" H 3650 1450 50  0000 C CNN
+F 2 "Radio_Digi:Transformer_Bourns_SM-LP-5001" H 3350 1700 50  0001 C CNN
+F 3 "" H 3350 1700 50  0001 C CNN
+	1    3350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transformer_Audio_CTP_CTS T2
+U 1 1 5B741AD7
+P 3350 2700
+F 0 "T2" H 3350 2950 50  0000 C CNN
+F 1 "SM-LP-5001 Bourns 600:600 Ohm" H 3600 2400 50  0000 C CNN
+F 2 "Radio_Digi:Transformer_Bourns_SM-LP-5001" H 3350 2700 50  0001 C CNN
+F 3 "" H 3350 2700 50  0001 C CNN
+	1    3350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J8
+U 1 1 5B741D7D
+P 2750 2250
+F 0 "J8" V 2750 2450 50  0000 C CNN
+F 1 "Conn_01x03" V 2850 2250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm" H 2750 2250 50  0001 C CNN
+F 3 "" H 2750 2250 50  0001 C CNN
+	1    2750 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 2950 2750 2450
+Wire Wire Line
+	2850 2450 2850 2500
+Wire Wire Line
+	2850 2500 2950 2500
+Wire Wire Line
+	2950 2700 2650 2700
+Wire Wire Line
+	2650 2700 2650 2450
+$Comp
+L Conn_01x03 J3
+U 1 1 5B742158
+P 4050 1300
+F 0 "J3" V 4050 1500 50  0000 C CNN
+F 1 "Conn_01x03" V 4150 1350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4050 1300 50  0001 C CNN
+F 3 "" H 4050 1300 50  0001 C CNN
+	1    4050 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 1500 3950 1500
+Wire Wire Line
+	4150 1500 4150 1700
+Wire Wire Line
+	4150 1700 3750 1700
+Wire Wire Line
+	4050 1500 4050 1600
+Wire Wire Line
+	4050 1600 4300 1600
+Wire Wire Line
+	4300 1600 4300 1500
+Text Notes 5700 1100 0    60   ~ 0
+PTT Open Collector
+Text Notes 1250 1000 0    60   ~ 0
+PTT Rs232 or 0-5V
+$Comp
+L R R1
+U 1 1 5B74271C
+P 5150 650
+F 0 "R1" V 5230 650 50  0000 C CNN
+F 1 "1K2" V 5150 650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5080 650 50  0001 C CNN
+F 3 "" H 5150 650 50  0001 C CNN
+	1    5150 650 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 650  5000 850 
+Connection ~ 5000 850 
+$Comp
+L Conn_01x03 J1
+U 1 1 5B7428C6
+P 5550 1050
+F 0 "J1" H 5550 1250 50  0000 C CNN
+F 1 "Conn_01x03" H 5500 850 50  0000 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB133_03x5mm_Straight" H 5550 1050 50  0001 C CNN
+F 3 "" H 5550 1050 50  0001 C CNN
+	1    5550 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 850  5300 850 
+Wire Wire Line
+	5300 850  5300 1050
+Wire Wire Line
+	5300 1050 5350 1050
+Wire Wire Line
+	5350 950  5350 650 
+Wire Wire Line
+	5350 650  5300 650 
+NoConn ~ 4300 900 
+Connection ~ 5150 850 
+Connection ~ 5150 1150
+Wire Wire Line
+	4300 1150 4300 1100
+Wire Wire Line
+	2100 1300 2300 1300
+Wire Wire Line
+	2300 1300 2300 1100
+Wire Wire Line
+	2300 1100 3700 1100
+$EndSCHEMATC
