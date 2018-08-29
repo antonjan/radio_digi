@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/anton/Documents/kicad/Radio_Digi/Radio_Digi.sch</source>
+    <date>Wed 29 Aug 2018 10:16:05 SAST</date>
+    <tool>Eeschema 4.0.7-e2-6376~61~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Radio Digi</title>
+        <company>Giga Technology</company>
+        <rev>V1</rev>
+        <date>2018-08-15</date>
+        <source>Radio_Digi.sch</source>
+        <comment number="1" value="Author: Anton Janovsky"/>
+        <comment number="2" value="Radio Isolation"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="RV1">
+      <value>1k5</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical</footprint>
+      <libsource lib="device" part="POT_TRIM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B72DAE9</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>2k</value>
+      <footprint>Potentiometer_SMD:Potentiometer_Bourns_3314G_Vertical</footprint>
+      <libsource lib="device" part="POT_TRIM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B72DB78</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>430</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B72DCFE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>470</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B72DE3B</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B72E0D5</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B72E34A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>4N25</value>
+      <footprint>Housings_DIP:DIP-6_W7.62mm_SMD</footprint>
+      <libsource lib="opto" part="4N25"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B72E758</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="device" part="D_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B72E9DA</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB132_02x5mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B72ED47</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4001</value>
+      <footprint>Diodes_SMD:D_SOD-123F</footprint>
+      <libsource lib="device" part="D_ALT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B73D23A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B73D78C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B73D7E7</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB132_02x5mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B73DBC4</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB132_02x5mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B73DC2A</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB132_02x5mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B73DE77</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB132_02x5mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B73DF0B</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>SM-LP-5001 Bourns 600:600 Ohm</value>
+      <footprint>Radio_Digi:Transformer_Bourns_SM-LP-5001</footprint>
+      <libsource lib="Audio_transformer" part="Transformer_Audio_CTP_CTS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B741A32</tstamp>
+    </comp>
+    <comp ref="T2">
+      <value>SM-LP-5001 Bourns 600:600 Ohm</value>
+      <footprint>Radio_Digi:Transformer_Bourns_SM-LP-5001</footprint>
+      <libsource lib="Audio_transformer" part="Transformer_Audio_CTP_CTS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B741AD7</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.00mm</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B741D7D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B742158</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K2</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B74271C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03</value>
+      <footprint>Connectors_Terminal_Blocks:TerminalBlock_Philmore_TB133_03x5mm_Straight</footprint>
+      <libsource lib="conn" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7428C6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="opto" part="4N25">
+      <aliases>
+        <alias>4N26</alias>
+        <alias>TIL111</alias>
+        <alias>4N27</alias>
+        <alias>4N28</alias>
+      </aliases>
+      <description>DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V, DIP6</description>
+      <docs>https://www.vishay.com/docs/83725/4n25.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4N25</field>
+        <field name="Footprint">Housings_DIP:DIP-6_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_ALT">
+      <description>Diode, alternativ symbol</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT_TRIM">
+      <description>Trim-Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT_TRIM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Audio_transformer" part="Transformer_Audio_CTP_CTS">
+      <description>Transformer, split primary, single secondary</description>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_Audio_CTP_CTS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PR1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="PR2" type="passive"/>
+        <pin num="4" name="S1" type="passive"/>
+        <pin num="5" name="SE" type="passive"/>
+        <pin num="6" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="opto">
+      <uri>/usr/share/kicad/library/opto.lib</uri>
+    </library>
+    <library logical="Audio_transformer">
+      <uri>/home/anton/Documents/kicad/Radio_Digi/Audio_transformer.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J10-Pad2)">
+      <node ref="T2" pin="3"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J4-Pad3)">
+      <node ref="T1" pin="1"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="3" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="T1" pin="3"/>
+    </net>
+    <net code="4" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="T1" pin="5"/>
+    </net>
+    <net code="5" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="T1" pin="6"/>
+    </net>
+    <net code="6" name="Net-(J7-Pad3)">
+      <node ref="J7" pin="3"/>
+      <node ref="T2" pin="5"/>
+    </net>
+    <net code="7" name="Net-(J8-Pad1)">
+      <node ref="T2" pin="2"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J10-Pad1)">
+      <node ref="J10" pin="1"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J8-Pad3)">
+      <node ref="T2" pin="1"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="10" name="Net-(J4-Pad2)">
+      <node ref="J4" pin="2"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="J9" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="18" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2"/>
+      <node ref="T1" pin="4"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="19" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="T1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(R3-Pad1)">
+      <node ref="RV1" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="21" name="Net-(J7-Pad1)">
+      <node ref="J7" pin="1"/>
+      <node ref="T2" pin="6"/>
+    </net>
+    <net code="22" name="Net-(J7-Pad2)">
+      <node ref="J7" pin="2"/>
+      <node ref="RV2" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D1-Pad2)">
+      <node ref="J2" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C2-Pad2)">
+      <node ref="RV2" pin="2"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="27" name="Net-(D2-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="D2" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="28" name="Net-(J9-Pad2)">
+      <node ref="J9" pin="2"/>
+      <node ref="T2" pin="4"/>
+      <node ref="RV2" pin="3"/>
+    </net>
+    <net code="29" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+  </nets>
+</export>

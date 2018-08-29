@@ -1,0 +1,30 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C_Small,C1 C2,100nF,C_0805_HandSoldering,2,
+2,"Diode, alternativ symbol",D_ALT,D2,1N4001,D_SOD-123F,1,
+3,"Diode, small symbol",D_Small,D1,1N4148,D_SOD-123,1,
+4,"Generic connector, single row, 01x02",Conn_01x02,J2 J5 J6 J9 J10,Conn_01x02,TerminalBlock_Philmore_TB132_02x5mm_Straight,5,
+5,"Generic connector, single row, 01x03",Conn_01x03,J1,Conn_01x03,TerminalBlock_Philmore_TB133_03x5mm_Straight,1,
+6,"Generic connector, single row, 01x03",Conn_01x03,J3 J4 J7,Conn_01x03,Pin_Header_Straight_1x03_Pitch2.54mm,3,
+7,"Generic connector, single row, 01x03",Conn_01x03,J8,Conn_01x03,Pin_Header_Straight_1x03_Pitch2.00mm,1,
+8,Resistor,R,R1,1K2,R_0805_HandSoldering,1,
+9,Resistor,R,R2,430,R_0805_HandSoldering,1,
+10,Resistor,R,R3,470,R_0805_HandSoldering,1,
+11,Trim-Potentiometer,POT_TRIM,RV1,1k5,Potentiometer_Bourns_3314G_Vertical,1,
+12,Trim-Potentiometer,POT_TRIM,RV2,2k,Potentiometer_Bourns_3314G_Vertical,1,
+13,"Transformer, split primary, single secondary",Transformer_Audio_CTP_CTS,T1 T2,SM-LP-5001 Bourns 600:600 Ohm,Transformer_Bourns_SM-LP-5001,2,
+14,"DC Optocoupler Base Connected, Vce 30V, CTR 20%, Viso 2500V, DIP6",4N25,U1,4N25,DIP-6_W7.62mm_SMD,1,https://www.vishay.com/docs/83725/4n25.pdf
+
+
+
+
+
+Component Groups:,14
+Component Count:,22
+Fitted Components:,22
+Number of PCBs:,1
+Total components:,22
+Schematic Version:,V1
+Schematic Date:,2018-08-15
+BoM Date:,Wed 29 Aug 2018 10:16:05 SAST
+Schematic Source:,/home/anton/Documents/kicad/Radio_Digi/Radio_Digi.sch
+KiCad Version:,Eeschema 4.0.7-e2-6376~61~ubuntu18.04.1
