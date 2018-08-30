@@ -1,0 +1,18 @@
+### Module positions - created on Thu Aug 30 14:31:35 2018 ###
+### Printed by Pcbnew version kicad 4.0.7-e2-6376~61~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                                   PosX       PosY       Rot  Side
+C1        100nF     C_0805_HandSoldering                   41.8465    15.2400  180.0000  top
+C2        100nF     C_0805_HandSoldering                   41.8465     3.8100  180.0000  top
+D1        1N4148    D_SOD-123                              15.1765    33.0200   90.0000  top
+D2        1N4001    D_SOD-123F                             38.0365    30.4800  270.0000  top
+R1        1K2       R_0805_HandSoldering                   41.8465    30.4800   90.0000  top
+R2        430       R_0805_HandSoldering                   18.9865    33.0200  270.0000  top
+R3        470       R_0805_HandSoldering                   41.8465    25.4000  180.0000  top
+RV1       1k5       Potentiometer_Bourns_3314G_Vertical    41.8465    20.3200    0.0000  top
+RV2       2k        Potentiometer_Bourns_3314G_Vertical    41.8465     8.8900    0.0000  top
+T1        600:600   Transformer_Bourns_SM-LP-5001          25.3365    20.3200    0.0000  top
+T2        600:600   Transformer_Bourns_SM-LP-5001          25.3365     7.6200    0.0000  top
+U1        4N25      DIP-6_W7.62mm_SMD                      27.8765    31.7500    0.0000  top
+## End
